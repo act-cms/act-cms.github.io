@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'DIN Condensed Bold';
+  src: local('DIN Condensed Bold'), url('/fonts/dincond-bold-opentype.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DIN';
+  src: local('DIN'), url('/fonts/din-regular-opentype.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+

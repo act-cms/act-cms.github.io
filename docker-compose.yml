@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  atomms_frontend:
+    image: 'act-cms-frontend:latest'
+    container_name: act-cms_frontend
+    volumes:
+      - "./act-cms-website/public:/app/public"
+      - "./act-cms-website/src:/app/src"
+    ports:
+      - "5173:5173"
+    build:
+      context: .
+      dockerfile: frontend.development.dockerfile
+    entrypoint: npm run dev

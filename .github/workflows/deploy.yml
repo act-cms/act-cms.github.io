@@ -1,0 +1,25 @@
+name: Build and Deploy
+on:
+  push:
+    branches:
+      - main 
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build with Docker
+        run: |
+          docker build -f frontend.development.dockerfile -t act-cms-website .
+          docker create --name extract act-cms-website
+          docker cp extract:/app/dist ./dist
+          docker rm -f extract
+          touch ./dist/.nojekyll
+
+      - name: Deploy Site
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+            folder: ./dist
