@@ -208,7 +208,7 @@ function Home() {
         </Typography>
 
         <Typography paragraph={true}>
-            ACT-CMS doesn't yet have a mailing list, but you can stay up-to-date by joining the MolSSI Mailing List.
+            You can stay up-to-date with ACT-CMS by joining the MolSSI Mailing List.
         </Typography>
         
         <Box sx={{ 
