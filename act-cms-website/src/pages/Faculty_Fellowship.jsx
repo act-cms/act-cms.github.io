@@ -1,5 +1,6 @@
 import Typography from '@mui/material/Typography';
 
+import Link from '@mui/material/Link';
 import Container from '@mui/material/Container';
 import Box from '@mui/material/Box';
 import List from '@mui/material/List';
@@ -76,7 +77,7 @@ function FacultyFellows() {
       The molecular science domain includes but is not limited to chemistry, physics, materials science and engineering, and molecular biology.  
       Educators must have a full-time appointment at an educational institution in the United States to be eligible for the fellowship.  
       Faculty at any level of higher education from any type of institution, including community colleges, liberal arts colleges, primarily undergraduate institutions, and research-intensive universities, are all eligible for the fellowship.  
-      Educators who serve student populations that are historically underrepresented in STEM disciplines are especially encouraged to apply.  Please contact us at act-cms@molssi.org if you have any questions about your eligibility.    
+      Educators who serve student populations that are historically underrepresented in STEM disciplines are especially encouraged to apply.  Please contact us at <Link href="mailto:act-cms@molssi.org">act-cms@molssi.org</Link> if you have any questions about your eligibility.    
     </Typography>
 
     <Typography variant="h2" gutterBottom>Preparing Your Application</Typography>
