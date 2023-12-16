@@ -62,13 +62,13 @@ function FacultyFellows() {
       <Typography variant="h2" gutterBottom>
         Faculty Fellowship Benefits:
       </Typography>
-      <List>
-        <CustomListItem primary="$3500 stipend each year of the fellowship" />
-        <CustomListItem primary="$1500 travel funding each year of the fellowship" />
-        <CustomListItem primary="Mentorship from a MolSSI software mentor and a MolSSI curriculum mentor" />
-        <CustomListItem primary="Annual meeting at MolSSI headquarters for training and networking" />
+        <List>
+          <CustomListItem primary="$3500 stipend each year of the fellowship." />
+          <CustomListItem primary="$1500 travel funding each year of the fellowship." />
+          <CustomListItem primary="Mentorship from an ACT-CMS Programming and Computation Mentor and an ACT-CMS curriculum mentor." />
+          <CustomListItem primary="Annual meeting at MolSSI headquarters for training and networking." />
       </List>
-    </div>
+      </div>
 
     <Typography variant="h2" gutterBottom>Eligibility</Typography>
 
