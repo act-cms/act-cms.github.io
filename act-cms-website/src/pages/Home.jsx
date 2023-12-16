@@ -121,7 +121,7 @@ function Home() {
 
         <Typography paragraph={true}>
             ACT-CMS is a faculty and curriculum development program that facilitates the integration of programming, computation, and other cyberinfrastructure skills into existing physical science courses. 
-            This will be achieved through the three program components:
+            This will be achieved through the three program components: (1) A Faculty Fellows Program, (2) the creation of Open and Reusable Curricular Materials, and (3) the creation of an Educator Community and Support Network.
         </Typography>
         
         <Grid 
