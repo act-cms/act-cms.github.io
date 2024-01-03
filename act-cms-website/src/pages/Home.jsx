@@ -104,7 +104,7 @@ function Home() {
         <Typography paragraph={true}>
         The Molecular Sciences Software Institute (MolSSI) is pleased to announce the launch of a new education and faculty development program: 
         Accelerating Curricular Transformation in the Computational Molecular Sciences (ACT-CMS). 
-        The goal of ACT-CMS is to transform science curricula by accelerating the integration of programming and computation into existing physical science courses through faculty training and the development of open and reusable curricular modules.
+        The goal of ACT-CMS is to transform science curricula by accelerating the integration of programming and computation into existing molecular science courses through faculty training and the development of open and reusable curricular modules.
         </Typography>
 
         <Typography paragraph={true}>
@@ -120,7 +120,7 @@ function Home() {
         </Typography>
 
         <Typography paragraph={true}>
-            ACT-CMS is a faculty and curriculum development program that facilitates the integration of programming, computation, and other cyberinfrastructure skills into existing physical science courses. 
+            ACT-CMS is a faculty and curriculum development program that facilitates the integration of programming, computation, and other cyberinfrastructure skills into existing molecular science courses. 
             This will be achieved through the three program components: (1) A Faculty Fellows Program, (2) the creation of Open and Reusable Curricular Materials, and (3) the creation of an Educator Community and Support Network.
         </Typography>
         
