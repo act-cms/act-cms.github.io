@@ -109,7 +109,7 @@ function Home() {
 
         <Typography paragraph={true}>
         ACT-CMS will achieve this goal by providing faculty with the training and resources needed to integrate programming and computation into their existing courses. 
-        ACT-CMS is generously funded by the the National Science Foundation 
+        ACT-CMS is generously funded by the National Science Foundation 
         Training-based Workforce Development for Advanced Cyberinfrastructure program (
         <Link href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2321044">OAC 2321044</Link>,
         <Link href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2321045">OAC 2321045</Link>).
