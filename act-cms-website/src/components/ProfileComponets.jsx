@@ -53,4 +53,17 @@ const ProfileCard = ({ headshot, markdown_file }) => {
     );
   };
 
-  export default ProfileCard;
+const TeamGrid = ( {profiles} ) => {
+return (
+    <Grid container spacing={4}>
+    {profiles.map((profile, index) => (
+        <Grid item xs={12} key={index}>
+        <ProfileCard headshot={profile.headshot} markdown_file={profile.markdown_file} />
+        </Grid>
+    ))}
+    </Grid>
+);
+};
+
+
+export default TeamGrid;
