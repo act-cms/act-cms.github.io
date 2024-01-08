@@ -3,6 +3,7 @@ import Typography from '@mui/material/Typography';
 import Link from '@mui/material/Link';
 import Container from '@mui/material/Container';
 import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
@@ -87,7 +88,18 @@ function FacultyFellows() {
         Applications will open on January 29, 2024 and close on February 29, 2024.  
         Fellows will be notified of their selection in early April 2024.   
     </Typography>
-
+    
+    <Box sx={{ 
+                  width: '100%',
+                  display: 'flex',
+                  justifyContent: 'center',
+                  alignItems: 'center',
+                  overflow: 'hidden'
+                }}>
+      <Link href="https://molssi.typeform.com/to/eLvRsWhG">
+        <Button variant="contained"><span style={{ textTransform: 'capitalize' }}>Register for Faculty Fellowship Info Session on January 29</span></Button>
+      </Link>
+    </Box>
     <Typography paragraph={true}> 
         The application will include the following components:
 
