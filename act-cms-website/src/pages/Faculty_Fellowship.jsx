@@ -96,12 +96,12 @@ function FacultyFellows() {
                   alignItems: 'center',
                   overflow: 'hidden'
                 }}>
-      <Link href="https://molssi.typeform.com/to/eLvRsWhG">
-        <Button variant="contained"><span style={{ textTransform: 'capitalize' }}>Register for Faculty Fellowship Info Session on January 29</span></Button>
+      <Link href="https://molssi.typeform.com/to/Xgzcby3Y">
+        <Button variant="contained"><span style={{ textTransform: 'capitalize' }}>Click here for the Faculty Fellows Application Form</span></Button>
       </Link>
     </Box>
     <Typography paragraph={true}> 
-        The application will include the following components:
+        The application includes the following components:
 
         <ol>
           <li>

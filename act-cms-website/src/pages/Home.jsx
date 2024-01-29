@@ -166,8 +166,24 @@ function Home() {
                   overflow: 'hidden'
                 }}>
             <RouterLink to="/faculty_fellowship">
-              <Button variant="contained"><span style={{ textTransform: 'capitalize' }}>Interested in becoming a Faculty Fellow? Click Here</span></Button>
+              <Button variant="contained"><span style={{ textTransform: 'capitalize' }}>Interested in becoming a Faculty Fellow? Click Here for more information.</span></Button>
             </RouterLink>
+
+            
+          </Box>
+
+          <Box sx={{ 
+                  width: '100%',
+                  display: 'flex',
+                  justifyContent: 'center',
+                  alignItems: 'center',
+                  overflow: 'hidden', 
+                  marginTop: '1em'
+                }}>
+
+              <Link href="https://molssi.typeform.com/to/Xgzcby3Y">
+                  <Button variant="contained"><span style={{ textTransform: 'capitalize' }}>Ready to apply? Click here for the Faculty Fellows application form.</span></Button>
+              </Link>
           </Box>
 
         </Grid>
