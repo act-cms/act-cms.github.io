@@ -96,6 +96,19 @@ function FacultyFellows() {
                   alignItems: 'center',
                   overflow: 'hidden'
                 }}>
+      <Link href="https://video.vt.edu/media/ACT-CMS%20Info%20Session/1_tvmi497o">
+        <Button variant="contained"><span style={{ textTransform: 'capitalize' }}>View the Recording of the Faculty Fellowship Info Session</span></Button>
+      </Link>
+    </Box>
+
+    <Box sx={{ 
+                  width: '100%',
+                  display: 'flex',
+                  justifyContent: 'center',
+                  alignItems: 'center',
+                  overflow: 'hidden', 
+                  marginTop: '1em'
+                }}>
       <Link href="https://molssi.typeform.com/to/Xgzcby3Y">
         <Button variant="contained"><span style={{ textTransform: 'capitalize' }}>Click here for the Faculty Fellows Application Form</span></Button>
       </Link>
