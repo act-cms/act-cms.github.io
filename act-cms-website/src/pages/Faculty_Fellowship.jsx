@@ -65,7 +65,7 @@ function FacultyFellows() {
       </Typography>
         <List>
           <CustomListItem primary="$3500 stipend each year of the fellowship." />
-          <CustomListItem primary="$1500 travel funding each year of the fellowship." />
+          <CustomListItem primary="Travel funding each year of the fellowship." />
           <CustomListItem primary="Mentorship from an ACT-CMS Programming and Computation Mentor and an ACT-CMS Curriculum Mentor." />
           <CustomListItem primary="Annual meeting at MolSSI headquarters for training and networking." />
       </List>
@@ -162,7 +162,7 @@ function FacultyFellows() {
       <Typography paragraph={true}>
       Fellows will be paid a $3500 stipend each year of their fellowship.  
       All travel expenses associated with their participation in the Faculty Fellows Workshop are covered by the program.  
-      Additionally, faculty will also receive $1500 in travel support so they can present their teaching kit to their community at a conference or workshop for their discipline.  
+      Additionally, faculty will also receive travel support so they can present their teaching kit to their community at a conference or workshop for their discipline.  
 
       </Typography>
 

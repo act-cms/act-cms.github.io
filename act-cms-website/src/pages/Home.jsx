@@ -152,7 +152,7 @@ function Home() {
           <div>
             <List>
               <CustomListItem primary="$3500 stipend each year of the fellowship." />
-              <CustomListItem primary="$1500 travel funding each year of the fellowship." />
+              <CustomListItem primary="Travel funding each year of the fellowship." />
               <CustomListItem primary="Mentorship from an ACT-CMS Programming and Computation Mentor and an ACT-CMS Curriculum Mentor." />
               <CustomListItem primary="Annual meeting at MolSSI headquarters for training and networking." />
           </List>
