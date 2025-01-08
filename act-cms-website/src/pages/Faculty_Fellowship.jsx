@@ -143,7 +143,7 @@ function FacultyFellows() {
 
       <Typography paragraph={true}>
       The fellowship is a two-year program over the course of two academic years.  
-      We are currently recruiting our 2024 class of fellows, who will have a fellowship period of June 2024-May 2026.  
+      We are currently recruiting our 2025 class of fellows, who will have a fellowship period of June 2025-May 2027.  
       Over this two year period, faculty will develop a curricular activity that integrates programming and computation into a course they teach, 
       pilot their activity with their own students at their own institution, and create a high-quality curriculum module (called a teaching kit) that will be shared through the ACT-CMS curriculum portal hosted by the MolSSI.
       </Typography>
@@ -155,14 +155,12 @@ function FacultyFellows() {
       The Fellows will work closely with the ACT-CMS leadership team and collaborate with the other Fellows.  
       Each fellow will be assigned a CI mentor (a member of MolSSI staff) and a curriculum mentor (another faculty member) to work with on their curriculum development.  
       In the second year of the program, faculty will be assigned to serve as the curriculum mentor for a new fellow. 
-      We anticipate selecting 10 fellows to participate in the program for the 2024-2026 cycle.  
+      We anticipate selecting 10 fellows to participate in the program for the 2025-2027 cycle.  
       </Typography>
 
       <Typography paragraph={true}>
-      Fellows will be paid a $3500 stipend each year of their fellowship.  
+      Fellows will be paid a $5000 stipend each year of their fellowship.  
       All travel expenses associated with their participation in the Faculty Fellows Workshop are covered by the program.  
-      Additionally, faculty will also receive travel support so they can present their teaching kit to their community at a conference or workshop for their discipline.  
-
       </Typography>
 
 
