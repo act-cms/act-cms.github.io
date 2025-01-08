@@ -37,7 +37,7 @@ const exampleNewsItems = [
         title: '2025 Faculty Fellowship Application Now Open',
         summary: 'Applications for the 2025 Faculty Fellowship are now open. Apply by February 28, 2025 for consideration.',
         link: 'https://molssi.typeform.com/to/svMh8JKr',
-        buttonText: 'Register Now',
+        buttonText: 'Apply Here',
       },
   ];
   
