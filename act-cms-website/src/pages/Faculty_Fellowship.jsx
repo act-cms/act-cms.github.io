@@ -84,7 +84,7 @@ function FacultyFellows() {
 
     <Typography paragraph={true}>
         Fellows will be selected through a competitive application process.  
-        Applications will open on January 27, 2025 and close on February 28, 2025.  
+        Applications will open on January 2025 and close on February 28, 2025.  
         Fellows will be notified of their selection in April 2025.   
     </Typography>
     
