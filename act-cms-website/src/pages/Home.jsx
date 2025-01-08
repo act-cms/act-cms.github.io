@@ -180,7 +180,7 @@ function Home() {
                   marginTop: '1em'
                 }}>
 
-              <Link href="https://molssi.typeform.com/to/Xgzcby3Y">
+              <Link href="https://molssi.typeform.com/to/svMh8JKr">
                   <Button variant="contained"><span style={{ textTransform: 'capitalize' }}>Ready to apply? Click here for the Faculty Fellows application form.</span></Button>
               </Link>
           </Box>
