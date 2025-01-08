@@ -27,7 +27,7 @@ const exampleNewsItems = [
     },
     {
         id: 3,
-        title: 'Curricular Development Webinar',
+        title: 'Curricular Development Showcase',
         summary: 'Join two of our 2024 Faculty Fellows as they discuss design and implementation of computational activites in their courses. This webinar will be held on February 3, 2025.',
         link: 'https://molssi.typeform.com/to/UU7rM44h',
         buttonText: 'Register Now',
