@@ -17,6 +17,8 @@ import ClassIcon from '../assets/class-scene.svg'
 
 import Concept from '../assets/act-cms.svg'
 
+import NewsScroll from '../components/NewsScroll';
+
 
 const CapComponent = () => {
   return (
@@ -61,7 +63,6 @@ function Home() {
   return (
     <>
 
-
 <Box sx={{ 
   width: '100%',
   backgroundColor: 'black',
@@ -101,19 +102,17 @@ function Home() {
         Accelerating Curricular Transformation in the Computational Molecular Sciences
       </Typography>*/}
 
-        <Typography paragraph={true}>
-        The Molecular Sciences Software Institute (MolSSI) is pleased to announce the launch of a new education and faculty development program: 
-        Accelerating Curricular Transformation in the Computational Molecular Sciences (ACT-CMS). 
-        The goal of ACT-CMS is to transform science curricula by accelerating the integration of programming and computation into existing molecular science courses through faculty training and the development of open and reusable curricular modules.
-        </Typography>
 
         <Typography paragraph={true}>
-        ACT-CMS will achieve this goal by providing faculty with the training and resources needed to integrate programming and computation into their existing courses. 
-        ACT-CMS is generously funded by the National Science Foundation 
-        Training-based Workforce Development for Advanced Cyberinfrastructure program (
-        <Link href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2321044">OAC 2321044</Link>,
-        <Link href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2321045">OAC 2321045</Link>).
+          Accelerating Curricular Transformation in the Computational Molecular Sciences (ACT-CMS) is an education and faculty development program from 
+          <Link href="https://molssi.org">The Molecular Sciences Software Institute.</Link> 
+          The goal of ACT-CMS is to transform science curricula by accelerating the integration of programming and computation into existing molecular science courses 
+          through faculty training and the development of open and reusable curricular modules.
         </Typography>
+
+        
+        <NewsScroll />
+
 
         <Typography variant="h2" component="h2" gutterBottom>
             Program Components
@@ -121,8 +120,9 @@ function Home() {
 
         <Typography paragraph={true}>
             ACT-CMS is a faculty and curriculum development program that facilitates the integration of programming, computation, and other cyberinfrastructure skills into existing molecular science courses. 
-            This will be achieved through the three program components: (1) A Faculty Fellows Program, (2) the creation of Open and Reusable Curricular Materials, and (3) the creation of an Educator Community and Support Network.
+            This is achieved through the three program components: (1) A Faculty Fellows Program, (2) the creation of Open and Reusable Curricular Materials, and (3) the creation of an Educator Community and Support Network.
         </Typography>
+
         
         <Grid 
         container 
@@ -146,13 +146,12 @@ function Home() {
             These modules will be open and reusable, allowing other educators to adopt them in their classrooms. 
           </Typography> 
           <Typography paragraph={true}>
-            Applications for the first cohort of Faculty Fellows will open in January 2024.
+            Applications for the next cohort of Faculty Fellows opens in January 2025.
             A Faculty Fellowship has the following benefits:
           </Typography> 
           <div>
             <List>
-              <CustomListItem primary="$3500 stipend each year of the fellowship." />
-              <CustomListItem primary="Travel funding each year of the fellowship." />
+              <CustomListItem primary="$5000 support (stipend + travel funding) stipend each year of the fellowship." />
               <CustomListItem primary="Mentorship from an ACT-CMS Programming and Computation Mentor and an ACT-CMS Curriculum Mentor." />
               <CustomListItem primary="Annual meeting at MolSSI headquarters for training and networking." />
           </List>
@@ -165,7 +164,7 @@ function Home() {
                   alignItems: 'center',
                   overflow: 'hidden'
                 }}>
-            <RouterLink to="/faculty_fellowship">
+            <RouterLink to="/faculty_fellowship_program">
               <Button variant="contained"><span style={{ textTransform: 'capitalize' }}>Interested in becoming a Faculty Fellow? Click Here for more information.</span></Button>
             </RouterLink>
 

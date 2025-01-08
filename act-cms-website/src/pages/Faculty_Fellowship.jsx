@@ -64,8 +64,7 @@ function FacultyFellows() {
         Faculty Fellowship Benefits:
       </Typography>
         <List>
-          <CustomListItem primary="$3500 stipend each year of the fellowship." />
-          <CustomListItem primary="Travel funding each year of the fellowship." />
+          <CustomListItem primary="$5000 support (stipend + travel funding) stipend each year of the fellowship." />
           <CustomListItem primary="Mentorship from an ACT-CMS Programming and Computation Mentor and an ACT-CMS Curriculum Mentor." />
           <CustomListItem primary="Annual meeting at MolSSI headquarters for training and networking." />
       </List>
@@ -85,8 +84,8 @@ function FacultyFellows() {
 
     <Typography paragraph={true}>
         Fellows will be selected through a competitive application process.  
-        Applications will open on January 29, 2024 and close on February 29, 2024.  
-        Fellows will be notified of their selection in early April 2024.   
+        Applications will open on January 27, 2025 and close on February 28, 2025.  
+        Fellows will be notified of their selection in April 2025.   
     </Typography>
     
     <Box sx={{ 
@@ -97,7 +96,7 @@ function FacultyFellows() {
                   overflow: 'hidden'
                 }}>
       <Link href="https://video.vt.edu/media/ACT-CMS%20Info%20Session/1_tvmi497o">
-        <Button variant="contained"><span style={{ textTransform: 'capitalize' }}>View the Recording of the Faculty Fellowship Info Session</span></Button>
+        <Button variant="contained"><span style={{ textTransform: 'capitalize' }}>View the Recording of the 2024 Faculty Fellowship Info Session</span></Button>
       </Link>
     </Box>
 
@@ -135,7 +134,7 @@ function FacultyFellows() {
             the letter of support should describe that commitment.  
           </li>
           <li>
-            <strong>Statement</strong> committing to attend the MolSSI Faculty Fellows workshop in-person in Blacksburg, VA June 17-21, 2024
+            <strong>Statement</strong> committing to attend the MolSSI Faculty Fellows workshop in-person in Blacksburg, VA June 23-27, 2025.
           </li>
         </ol>
       </Typography>

@@ -42,7 +42,7 @@ function DrawerAppBar(props) {
       <Divider />
       <List>
       {Object.keys(pages).map(item => {
-        const itemPath = item.replace(" ", "_").toLowerCase();
+        const itemPath = item.replace(/ /g, "_").toLowerCase();
         return (
           <ListItem key={item} disablePadding>
             <NavLink 
@@ -85,7 +85,7 @@ function DrawerAppBar(props) {
           </Typography>
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
             {Object.keys(pages).map(item => {
-              const itemPath = item.replace(" ", "_").toLowerCase();
+              const itemPath = item.replace(/ /g, "_").toLowerCase();
               return (
                 <NavLink
                   to={itemPath}

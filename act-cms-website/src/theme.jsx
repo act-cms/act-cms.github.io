@@ -1,17 +1,13 @@
 import { createTheme } from '@mui/material/styles';
 
 const theme = createTheme({
-
   typography: {
     fontFamily: 'DIN, Arial, sans-serif',
-
     body1: {
-      fontSize: '1.05rem', // Set the font-size you want for <p>
+      fontSize: '1.05rem',
     },
     h1: {
       fontFamily: 'DIN Condensed Bold, Arial, sans-serif',
-      //color: "#393536",
-      //color: "#ed1c24",
       fontSize: '3.5rem',
       textAlign: 'center',
       paddingBottom: '3rem',
@@ -19,19 +15,14 @@ const theme = createTheme({
     },
     h2: {
       fontFamily: 'DIN Condensed Bold, Arial, sans-serif',
-      //color: "#ed1c24",
-      fontSize: '2rem', 
+      fontSize: '2rem',
     },
-
     h3: {
       fontFamily: 'DIN Condensed Bold, Arial, sans-serif',
-      //color: "#ed1c24",
       fontSize: '1.5rem',
     },
-
     h4: {
       fontFamily: 'DIN, Arial, sans-serif',
-      //color: "#393536",
       fontSize: '1.15rem',
     },
   },
@@ -39,10 +30,10 @@ const theme = createTheme({
   palette: {
     mode: 'dark',
     primary: {
-      main: "#ed1c24",
+      main: '#ed1c24',
     },
     secondary: {
-      main: "#1d35e7",
+      main: '#1d35e7',
     },
   },
 
@@ -50,15 +41,19 @@ const theme = createTheme({
     MuiLink: {
       styleOverrides: {
         root: {
+          color: '#ffffff', 
+          textDecoration: 'underline',
+          textUnderlineOffset: '4px', 
           '&:hover': {
+            fontWeight: 'bold', 
+            textDecoration: 'underline',
+            textDecorationThickness: '3px', 
             color: '#ffffff', 
           },
         },
       },
     },
   },
-
-  },
-);
+});
 
 export default theme;

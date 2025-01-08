@@ -5,23 +5,21 @@ import { motion } from 'framer-motion';
 
 const pageVariants = {
   initial: {
-    opacity: 0
+    opacity: 0,
   },
   in: {
-    opacity: 1
+    opacity: 1,
   },
   out: {
-    opacity: 0
-  }
+    opacity: 0,
+  },
 };
 
 const pageTransition = {
-  type: "tween",
-  ease: "anticipate",
-  duration: 1.0
+  type: 'tween',
+  ease: 'anticipate',
+  duration: 1.0,
 };
-
-
 
 const AnimatedPage = ({ children }) => (
   <motion.div
@@ -35,18 +33,26 @@ const AnimatedPage = ({ children }) => (
   </motion.div>
 );
 
-
 export const AppRoutes = ({ pages }) => (
-    <Routes>
-      <Route path='/' element={<AnimatedPage>{pages['Home']}</AnimatedPage>} />
-      {Object.keys(pages).map((page, index) => (
-        <Route key={page} path={`/${page.replace(" ", "_").toLowerCase()}`} element={
-          <AnimatedPage key={location.pathname}>
-            <Suspense fallback={<div>Loading...</div>}>
-              {pages[page]}
-            </Suspense>
-          </AnimatedPage>
-        } />
-      ))}
-    </Routes>
-  );
+  <Routes>
+    <Route path="/" element={<AnimatedPage>{pages['Home']}</AnimatedPage>} />
+    {Object.keys(pages).map((page, index) => {
+      // Replace spaces with underscores globally and convert to lowercase
+      const cleanPath = page.trim().replace(/ /g, "_").toLowerCase();
+
+      return (
+        <Route
+          key={page}
+          path={`/${cleanPath}`}
+          element={
+            <AnimatedPage>
+              <Suspense fallback={<div>Loading...</div>}>
+                {pages[page]}
+              </Suspense>
+            </AnimatedPage>
+          }
+        />
+      );
+    })}
+  </Routes>
+);
