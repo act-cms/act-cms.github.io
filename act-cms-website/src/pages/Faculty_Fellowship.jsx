@@ -108,7 +108,7 @@ function FacultyFellows() {
                   overflow: 'hidden', 
                   marginTop: '1em'
                 }}>
-      <Link href="https://molssi.typeform.com/to/Xgzcby3Y">
+      <Link href="https://molssi.typeform.com/to/svMh8JKr">
         <Button variant="contained"><span style={{ textTransform: 'capitalize' }}>Click here for the Faculty Fellows Application Form</span></Button>
       </Link>
     </Box>
