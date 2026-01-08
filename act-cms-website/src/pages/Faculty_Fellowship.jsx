@@ -53,8 +53,8 @@ function FacultyFellows() {
 
       <Typography paragraph={true}>
             The Faculty Fellows Program is the cornerstone of ACT-CMS. 
-            A Faculty Fellowship lasts two years and is awarded to a molecular science educator developing curricula integrating programming and computation into existing science courses.  
-            Through the two-year program, faculty will receive curriculum development and assessment training and will upskill their programming and computational skills.  
+            A Faculty Fellowship lasts one year and is awarded to a molecular science educator developing curricula integrating programming and computation into existing science courses.  
+            Through the one-year program, faculty will receive curriculum development and assessment training and will upskill their programming and computational skills.  
             They will produce a reusable curriculum module that uses programming and computation to teach STEM concepts in an existing course that they teach.  
       </Typography> 
       
@@ -149,9 +149,9 @@ function FacultyFellows() {
       <Typography variant="h2" gutterBottom>Program Structure</Typography>
 
       <Typography paragraph={true}>
-      The fellowship is a one-year program over the course of two academic years.  
+      The fellowship is a one-year program over the course of one academic year.  
       We are currently recruiting our 2026 class of fellows, who will have a fellowship period of June 2026-May 2027.  
-      Over this two year period, faculty will develop a curricular activity that integrates programming and computation into a course they teach, 
+      Over this one year period, faculty will develop a curricular activity that integrates programming and computation into a course they teach, 
       pilot their activity with their own students at their own institution, and create a high-quality curriculum module (called a teaching kit) that will be shared through the ACT-CMS curriculum portal hosted by the MolSSI.
       </Typography>
 
