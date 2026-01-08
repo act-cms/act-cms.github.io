@@ -13,32 +13,18 @@ import Link from '@mui/material/Link';
 const exampleNewsItems = [
     {
       id: 1,
-      title: '2024 Faculty Fellowship Workshop Material Available',
-      summary: 'View the schedule and materials from the June 2024 Faculty Fellowship Workshop.',
-      link: 'https://act-cms.molssi.org/2024-faculty-fellows-tutorials/faculty_fellows_workshop/index.html',
-      buttonText: 'Learn More',
-    },
-    {
-      id: 2,
-      title: 'Register for the 2025 Faculty Fellowship Info Session!',
-      summary: 'Join us on February 13, 2025 for an ACT-CMS Faculty Fellowship Information Session. This session will cover application requirements, program expectations, and more.',
-      link: 'https://molssi.typeform.com/to/fJcLpEnZ',
+      title: 'Register for the 2026 Faculty Fellowship Info Session!',
+      summary: 'Join us on January 30, 2026 for an ACT-CMS Faculty Fellowship Information Session. This session will cover application requirements, program expectations, and more.',
+      link: 'https://molssi.typeform.com/to/u3lOVqZt',
       buttonText: 'Register Now',
     },
     {
-        id: 3,
-        title: 'Curricular Development Showcase Webinar',
-        summary: 'Join two of our 2024 Faculty Fellows as they discuss design and implementation of computational activites in their courses. This webinar will be held on February 3, 2025.',
-        link: 'https://molssi.typeform.com/to/UU7rM44h',
-        buttonText: 'Register Now',
-      },
-      {
-        id: 3,
-        title: '2025 Faculty Fellowship Application Now Open',
-        summary: 'Applications for the 2025 Faculty Fellowship are now open. Apply by February 28, 2025 for consideration.',
-        link: 'https://molssi.typeform.com/to/svMh8JKr',
-        buttonText: 'Apply Here',
-      },
+      id: 2,
+      title: '2026 Faculty Fellowship Application Now Open',
+      summary: 'Applications for the 2026 Faculty Fellowship are now open. Apply by February 28, 2026 for consideration.',
+      link: 'https://molssi.typeform.com/to/qaOlQ4aM',
+      buttonText: 'Apply Here',
+    },
   ];
   
 
@@ -64,9 +50,9 @@ const NewsScroll = ({ newsItems = exampleNewsItems }) => {
       }}
     >
       {/* Navigation Button (Left) */}
-      <IconButton onClick={scrollLeft} sx={{ color: 'white', display: { xs: 'none', sm: 'block' } }}>
+      {/* <IconButton onClick={scrollLeft} sx={{ color: 'white', display: { xs: 'none', sm: 'block' } }}>
         <ChevronLeftIcon />
-      </IconButton>
+      </IconButton> */}
 
       {/* Scrollable News Cards */}
       <Box
@@ -144,9 +130,9 @@ const NewsScroll = ({ newsItems = exampleNewsItems }) => {
       </Box>
 
       {/* Navigation Button (Right) */}
-      <IconButton onClick={scrollRight} sx={{ color: 'white', display: { xs: 'none', sm: 'block' } }}>
+      {/* <IconButton onClick={scrollRight} sx={{ color: 'white', display: { xs: 'none', sm: 'block' } }}>
         <ChevronRightIcon />
-      </IconButton>
+      </IconButton> */}
     </Box>
   );
 };

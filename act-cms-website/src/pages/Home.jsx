@@ -146,7 +146,7 @@ function Home() {
             These modules will be open and reusable, allowing other educators to adopt them in their classrooms. 
           </Typography> 
           <Typography paragraph={true}>
-            Applications for the next cohort of Faculty Fellows opens in January 2025.
+            Applications for the next cohort of Faculty Fellows opens in January 2026.
             A Faculty Fellowship has the following benefits:
           </Typography> 
           <div>
@@ -180,7 +180,7 @@ function Home() {
                   marginTop: '1em'
                 }}>
 
-              <Link href="https://molssi.typeform.com/to/svMh8JKr">
+              <Link href="https://molssi.typeform.com/to/qaOlQ4aM">
                   <Button variant="contained"><span style={{ textTransform: 'capitalize' }}>Ready to apply? Click here for the Faculty Fellows application form.</span></Button>
               </Link>
           </Box>
