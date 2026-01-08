@@ -140,7 +140,7 @@ function Home() {
           <Typography variant="h3" component="h3" gutterBottom>Faculty Fellowships</Typography>
           <Typography paragraph={true}>
             The Faculty Fellows Program is the cornerstone of ACT-CMS. 
-            A Faculty Fellowship lasts two years and is awarded to a molecular science educator developing curricula integrating programming and computation into existing science courses.  
+            A Faculty Fellowship lasts one years and is awarded to a molecular science educator developing curricula integrating programming and computation into existing science courses.  
             Throughout the program, Faculty Fellows will receive curriculum development and assessment training and will upskill their programming and computational skills.  
             They will produce a curriculum module that uses programming and computation to teach STEM concepts in an existing course that they teach.
             These modules will be open and reusable, allowing other educators to adopt them in their classrooms. 
