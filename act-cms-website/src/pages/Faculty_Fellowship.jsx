@@ -75,8 +75,7 @@ function FacultyFellows() {
     <Typography paragraph={true}>
       The ACT-CMS Faculty Fellows program provides resources and financial support to molecular science educators who integrate programming and computation in the molecular sciences curriculum.  
       The molecular science domain includes but is not limited to chemistry, physics, materials science and engineering, and molecular biology.  
-      Educators must have a full-time appointment at an educational institution in the United States to be eligible for the fellowship.  
-      Faculty at any level of higher education from any type of institution, including community colleges, liberal arts colleges, primarily undergraduate institutions, and research-intensive universities, are all eligible for the fellowship.  
+      Educators must have a full-time appointment at an educational institution in the United States to be eligible for the fellowship. Tenure-line and instructional faculty are both eligible to apply. To be eligible for the fellowship, for any appointment type, a major component of your role must be undergraduate instruction. Faculty at any level of higher education from any type of institution, including community colleges, liberal arts colleges, primarily undergraduate institutions, and research-intensive universities, are all eligible for the fellowship.  
       Please contact us at <Link href="mailto:act-cms@molssi.org">act-cms@molssi.org</Link> if you have any questions about your eligibility.    
     </Typography>
 
@@ -84,8 +83,8 @@ function FacultyFellows() {
 
     <Typography paragraph={true}>
         Fellows will be selected through a competitive application process.  
-        Applications will open on January 2025 and close on February 28, 2025.  
-        Fellows will be notified of their selection in April 2025.   
+        Applications will open on January 2026 and close on February 28, 2026.  
+        Fellows will be notified of their selection in April 2026.   
     </Typography>
     
     <Box sx={{ 
@@ -108,7 +107,7 @@ function FacultyFellows() {
                   overflow: 'hidden', 
                   marginTop: '1em'
                 }}>
-      <Link href="https://molssi.typeform.com/to/svMh8JKr">
+      <Link href="https://molssi.typeform.com/to/qaOlQ4aM">
         <Button variant="contained"><span style={{ textTransform: 'capitalize' }}>Click here for the Faculty Fellows Application Form</span></Button>
       </Link>
     </Box>
