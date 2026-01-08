@@ -97,9 +97,9 @@ function FacultyFellows() {
       <Link
         target="_blank"
         rel="noopener noreferrer" 
-        href="https://video.vt.edu/media/ACT-CMS%20Info%20Session/1_tvmi497o"
+        href="https://molssi.typeform.com/to/u3lOVqZt"
       >
-        <Button variant="contained"><span style={{ textTransform: 'capitalize' }}>View the Recording of the 2024 Faculty Fellowship Info Session</span></Button>
+        <Button variant="contained"><span style={{ textTransform: 'capitalize' }}>Having Questions? Register for our info session here</span></Button>
       </Link>
     </Box>
 
