@@ -146,8 +146,7 @@ function Home() {
             These modules will be open and reusable, allowing other educators to adopt them in their classrooms. 
           </Typography> 
           <Typography paragraph={true}>
-            Applications for the next cohort of Faculty Fellows opens in January 2026.
-            A Faculty Fellowship has the following benefits:
+            Applications for the next cohort of Faculty Fellows has ended. Fellows will be notified of their selection in April 2026. A Faculty Fellowship has the following benefits:
           </Typography> 
           <div>
             <List>
