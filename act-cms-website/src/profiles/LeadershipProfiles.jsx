@@ -4,7 +4,7 @@ import DanielCrawford from '../assets/leadership/crawford_daniel.jpg';
 import AshleyMcDonald from '../assets/leadership/mcdonald_ashley.jpg';
 import SinaMostafanejad from '../assets/leadership/mostafanejad_sina.jpg';
 import JingChen from '../assets/leadership/chen_jing.jpg';
-import MarievanStaveren from '../assets/leadership/van_staveren_marie.jpg';
+import MarievanStaveren from '../assets/leadership/van_Staveren_Marie.jpg';
 
 const profiles = [
   { headshot: AshleyMcDonald, markdown_file: '/bios/Ashley_McDonald.md' },
