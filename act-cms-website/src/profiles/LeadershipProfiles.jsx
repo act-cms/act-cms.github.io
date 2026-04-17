@@ -8,10 +8,10 @@ import MarievanStaveren from '../assets/leadership/van_Staveren_Marie.jpg';
 
 const profiles = [
   { headshot: AshleyMcDonald, markdown_file: '/bios/Ashley_McDonald.md' },
+  {headshot: MarievanStaveren,markdown_file:'/bios/Marie_van_Staveren.md'},
   { headshot: DanielCrawford, markdown_file: '/bios/Daniel_Crawford.md'},
   { headshot: SinaMostafanejad, markdown_file: '/bios/Sina_Mostafanejad.md' },
   { headshot: JingChen, markdown_file: '/bios/Jing_Chen.md'},
-  {headshot: MarievanStaveren,markdown_file:'/bios/Marie_van_Staveren.md'},
 ];
 
 export default profiles;
