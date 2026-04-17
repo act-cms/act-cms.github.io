@@ -1,6 +1,6 @@
 ### Prof. Ashley McDonald
 
-Faculty Fellows Program Director
+Program Director
 
 *Professor*   
 **Cal Poly San Luis Obispo**  
