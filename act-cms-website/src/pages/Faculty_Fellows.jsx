@@ -2,7 +2,9 @@ import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import Box from '@mui/material/Box';
 
-import profiles2024 from '../profiles/2024FacultyFellows';   
+import profiles2024 from '../profiles/2024FacultyFellows';
+import profiles2025 from '../profiles/2025FacultyFellows';
+import profiles2026 from '../profiles/2026FacultyFellows';
 import TeamGrid from '../components/ProfileComponets';
 
 function FacultyFellows() {
@@ -22,6 +24,16 @@ function FacultyFellows() {
       </Typography>
       
     </Box>
+
+    <Container sx={{ padding: 3, backgroundColor: "rgba(255, 255, 255, 0.10)" }} maxWidth={false} >
+        <Typography variant="h2">2026-2027 Faculty Fellows</Typography>
+      <TeamGrid profiles={profiles2026} />
+    </Container>
+
+    <Container sx={{ padding: 3, backgroundColor: "rgba(255, 255, 255, 0.10)" }} maxWidth={false} >
+        <Typography variant="h2">2025-2027 Faculty Fellows</Typography>
+      <TeamGrid profiles={profiles2025} />
+    </Container>
 
     <Container sx={{ padding: 3, backgroundColor: "rgba(255, 255, 255, 0.10)" }} maxWidth={false} >
         <Typography variant="h2">2024-2026 Faculty Fellows</Typography>

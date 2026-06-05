@@ -1,0 +1,41 @@
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - navigation [ref=e6]:
+        - generic [ref=e7]:
+          - generic [ref=e8]: ACT-CMS
+          - generic [ref=e9]:
+            - link "Home" [ref=e10] [cursor=pointer]:
+              - /url: "#/home"
+              - button "Home" [ref=e11]:
+                - generic [ref=e12]: Home
+            - link "Faculty Fellowship Program" [ref=e13] [cursor=pointer]:
+              - /url: "#/faculty_fellowship_program"
+              - button "Faculty Fellowship Program" [ref=e14]:
+                - generic [ref=e15]: Faculty Fellowship Program
+            - link "Foundational Modules" [ref=e16] [cursor=pointer]:
+              - /url: "#/foundational_modules"
+              - button "Foundational Modules" [ref=e17]:
+                - generic [ref=e18]: Foundational Modules
+            - link "Leadership" [ref=e19] [cursor=pointer]:
+              - /url: "#/leadership"
+              - button "Leadership" [ref=e20]:
+                - generic [ref=e21]: Leadership
+            - link "Advisory Board" [ref=e22] [cursor=pointer]:
+              - /url: "#/advisory_board"
+              - button "Advisory Board" [ref=e23]:
+                - generic [ref=e24]: Advisory Board
+            - link "Faculty Fellows" [ref=e25] [cursor=pointer]:
+              - /url: "#/faculty_fellows"
+              - button "Faculty Fellows" [ref=e26]:
+                - generic [ref=e27]: Faculty Fellows
+      - navigation
+    - generic [ref=e30]: Loading...
+  - paragraph [ref=e32]:
+    - text: ACT-CMS is generously funded by the National Science Foundation Training-based Workforce Development for Advanced Cyberinfrastructure program (
+    - link "OAC 2321044" [ref=e33] [cursor=pointer]:
+      - /url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2321044
+    - text: ","
+    - link "OAC 2321045" [ref=e34] [cursor=pointer]:
+      - /url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2321045
+    - text: ).
